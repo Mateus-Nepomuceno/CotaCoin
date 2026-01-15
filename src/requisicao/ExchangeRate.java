@@ -10,7 +10,7 @@ import java.net.http.HttpResponse;
 
 public class ExchangeRate {
     public Cotacao consultarValor(String moedaBase) {
-        var url = "https://v6.exchangerate-api.com/v6/4f6545686017e3a9c7e24340/latest/" + moedaBase;
+        var url = "https://v6.exchangerate-api.com/v6/SUA_NOVA_CHAVE/latest/" + moedaBase;
         HttpRequest request = HttpRequest
                 .newBuilder(URI.create(url))
                 .build();
