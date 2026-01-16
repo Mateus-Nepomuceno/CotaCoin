@@ -22,4 +22,4 @@ O sistema permite a conversão bidirecional entre as seguintes moedas:
 3. Substitua a chave na URL dentro do método `consultarValor`:
 
 ```java
-var url = "[https://v6.exchangerate-api.com/v6/SUA_NOVA_CHAVE/latest/](https://v6.exchangerate-api.com/v6/SUA_NOVA_CHAVE/latest/)" + moedaBase;
+var url = "https://v6.exchangerate-api.com/v6/SUA_NOVA_CHAVE/latest/" + moedaBase;
